@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1663429567552,
+  "index": "https://ionovsashka.github.io/Angular1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ionovsashka.github.io/Angular1/970.9f3edbea778f44b7.js",
+        "https://ionovsashka.github.io/Angular1/971.9f99299289ed182b.js",
+        "https://ionovsashka.github.io/Angular1/favicon.ico",
+        "https://ionovsashka.github.io/Angular1/index.html",
+        "https://ionovsashka.github.io/Angular1/main.f500a9496eba4261.js",
+        "https://ionovsashka.github.io/Angular1/manifest.webmanifest",
+        "https://ionovsashka.github.io/Angular1/polyfills.4b276be5d019da95.js",
+        "https://ionovsashka.github.io/Angular1/runtime.cbbde1addbbd5328.js",
+        "https://ionovsashka.github.io/Angular1/styles.26b841dc7e8ec638.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-128x128.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-144x144.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-152x152.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-192x192.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-384x384.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-512x512.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-72x72.png",
+        "https://ionovsashka.github.io/Angular1/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firebase-posts",
+      "patterns": [
+        "https:\\/\\/angular-blog-c8eb7-default-rtdb\\.firebaseio\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 0,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://ionovsashka.github.io/Angular1/970.9f3edbea778f44b7.js": "fc1323e44dd0cdc263890a4be9b6ef024cd87b03",
+    "https://ionovsashka.github.io/Angular1/971.9f99299289ed182b.js": "cbd1b3e63732d2044c8b3a8bb7a6dd729b429327",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://ionovsashka.github.io/Angular1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://ionovsashka.github.io/Angular1/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://ionovsashka.github.io/Angular1/index.html": "4998c6d6785d46a3b7b1503a9a8cd2351ea74188",
+    "https://ionovsashka.github.io/Angular1/main.f500a9496eba4261.js": "d547cc39af552aa4fec24ee33af5b6d8c5eef040",
+    "https://ionovsashka.github.io/Angular1/manifest.webmanifest": "2a72c286bc30995c7140f3c238856fc741ff5ba8",
+    "https://ionovsashka.github.io/Angular1/polyfills.4b276be5d019da95.js": "58b81364fa0199ccc649b3ed5cec30bfe7327847",
+    "https://ionovsashka.github.io/Angular1/runtime.cbbde1addbbd5328.js": "295a672f556505572b5e1bd06fae32b07677d321",
+    "https://ionovsashka.github.io/Angular1/styles.26b841dc7e8ec638.css": "a55c07cfb3605cac52a706f4b5a70ad0f327076a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
